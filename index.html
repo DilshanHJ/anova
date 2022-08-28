@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+     <head>
+          <meta charset="utf-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <title>One Way ANOVA Calculator</title>
+          <meta name="description" content="">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+               integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+          <link rel="stylesheet" href="src/css/styles.css">
+     </head>
+     <body>
+          <!-- True Body -->
+          <div class="container">
+               <h1 id="main-title" class="">One Way ANOVA Calculator</h1>
+
+               <div id="input-container">
+                    <Textarea id="inputt"></Textarea>
+                    <div id="button-area">
+                         <button type="button" id="btnclear" class="btn btn-outline-light">Clear</button><br>
+                         <button type="button" id="btncalc" class="btn btn-outline-light">Calculate</button>
+                    </div>
+               </div>
+
+               <div id="output-container">
+                    <div class="row" id="row1">
+                         <div class="col table-Box" id="th1"> Source of <br> Variation </div>
+                         <div class="col table-Box" id="th2"> Sum of <br> Squares </div>
+                         <div class="col table-Box" id="th3"> Degree of <br> Freedom </div>
+                         <div class="col table-Box" id="th4"> Mean <br> Squares </div>
+                         <div class="col table-Box" id="th5"> F <br> Ratio </div>
+                    </div>
+                    <div class="row" id="row2">
+                         <div class="col table-Box" id=""> Between <br> Treatments </div>
+                         <div class="col table-Box out" id="ssb"> Sum of Squares Between </div>
+                         <div class="col table-Box out" id="dofb"> Degree of Freedom Between</div>
+                         <div class="col table-Box out" id="msb"> Mean Squares between</div>
+                         <div class="col table-Box out" id="frb"> F - Ratio between</div>
+                    </div>
+                    <div class="row" id="row3">
+                         <div class="col table-Box " id=""> Within <br> Treatments </div>
+                         <div class="col table-Box out" id="ssw"> Sum of Squares Within </div>
+                         <div class="col table-Box out" id="dofw"> Degree of Freedom within</div>
+                         <div class="col table-Box out" id="msw"> Mean Squares  within</div>
+                         <div class="col table-Box out" id="frw" style="background-color: black;"></div>
+                    </div>
+                    <div class="row" id="row4">
+                         <div class="col table-Box" id=""> <br>Total </div>
+                         <div class="col table-Box out" id="sst"> Sum of Squares Total </div>
+                         <div class="col table-Box out" id="doft"> Degree of Freedom total </div>
+                         <div class="col table-Box out" id="mst" style="background-color: black;"> </div>
+                         <div class="col table-Box out" id="frt" style="background-color: black;"></div>
+                    </div>
+
+               </div>
+          </div>
+
+          <div class="footer"><br><br> <center>Created by Dilshan</center> </div>
+          
+
+
+
+
+
+
+
+
+
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <!-- True Body -->
+          
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+               integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+               crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+               integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+               crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+               integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+               crossorigin="anonymous"></script>
+          <script src="src/js/index.js" async defer></script>
+     </body>
+</html>

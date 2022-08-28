@@ -1,0 +1,17 @@
+3,4,6,8,6,6,2,9
+5,5,3,7,4,7,2,2
+2,8,7,1,2,1,5,5
+
+79.2,80.1,77.4,77.6,77.8
+81.5,80.7,80.5,81.7,80.6
+74.8,76.5,74.7,74.8,74.9
+
+
+2.92,1.88,5.35,3.81,4.69,4.86,5.81,5.55
+1.84,0.95,4.26,3.18,3.44,3.69,4.95,4.47
+
+
+
+
+document.querySelector("#inputt").value="Enter the observations seperated by comma \nand Treatments(Groups) seperated by lines. \nOne line for one treatment(group). \nEx:- \n1,2,3,4,5,6 \n1,2,3,4,5,6 \n1,2,3,4,5,6";
+alert("after reading instructions please clear the  text field using 'clear button' before enter the data. coding method and problems with unbalanced data cannot be solved using this calculator")
